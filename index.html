@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Medidas Elétricas</title>
+</head>
+
+<body>
+
+    <video src="./assets/video.mp4" autoplay muted loop></video>
+
+    <main>
+        <h3> <b>⚡Calculadora de Medidas Elétricas⚡</b> </h3>
+        <div class="paragraph-box">
+            <img src="./assets/seta.gif" alt="seta">
+            <p>Digite <u>duas unidades</u> elétricas:</p>
+        </div>
+
+        <section>
+            <label>
+                Tensão =
+                <input id="voltage-value" placeholder="Volts">
+                <b>V</b>
+            </label>
+            <label>
+                Corrente =
+                <input id="current-value" placeholder="Ampers">
+                <b>A</b>
+            </label>
+            <label>
+                Resistência =
+                <input id="resistance-value" placeholder="Ohms">
+                <b>Ω</b>
+            </label>
+            <label>
+                Potência =
+                <input id="power-value" placeholder="Watts">
+                <b>W</b>
+            </label>
+        </section>
+
+        <p>Para fazer novo calculo, clique em <u> Limpar</u>.</p>
+
+        <div class="button-box">
+            <button class="button-to-clear">Limpar</button>
+            <button class="button-to-calculate">Calcular</button>
+        </div>
+    </main>
+    <footer>
+        <h3>Copyright &copy; 2023 - Desenvolvido por <a href="https://www.linkedin.com/in/gabriela-srosa/" target="_blank">Gabriela Rosa</a></h3>
+    </footer>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
